@@ -11,6 +11,7 @@ public class FichaPJ {
     private String nombrePJ;
     private String raza;
     private String clase;
+    private int nivel;
     private int fue; // fuerza
     private int mag; // magia
     private int agi; // agilidad
@@ -51,6 +52,14 @@ public class FichaPJ {
         this.clase = clase;
     }
 
+    public int getNivel() {
+        return nivel;
+    }
+
+    public void setNivel(int nivel) {
+        this.nivel = nivel;
+    }  
+    
     public int getFue() {
         return fue;
     }
